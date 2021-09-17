@@ -6,3 +6,4 @@
 0	3	*	*	6	run-parts /etc/periodic/weekly
 0	5	1	*	*	run-parts /etc/periodic/monthly
 */5	*	*	*	*	mv /moveFolder1/* /receiveFolder1
+*   2   *   *   *   mv /moveFolder2/* /receiveFolder2
