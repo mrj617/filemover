@@ -6,4 +6,4 @@
 0	3	*	*	6	run-parts /etc/periodic/weekly
 0	5	1	*	*	run-parts /etc/periodic/monthly
 */5	*	*	*	*	rsync -r /moveFolder1/* /receiveFolder1; rm -rf /moveFolder1/*
-*	*/2	*	*	*	rsync -r /moveFolder2/* /receiveFolder2; rm -rf /moveFolder2/*
+*/15	*	*	*	*	rsync -r /moveFolder2/* /receiveFolder2; rm -rf /moveFolder2/*
